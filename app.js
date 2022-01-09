@@ -9,14 +9,14 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
 
-    res.sendFile(__dirname + '/public/homepage.html')
+    res.sendFile(__dirname + 'public/homepage.html')
 
 });
 
 
 app.get("/home", (req, res) => {
 
-    res.sendFile(__dirname + '/public/email.html')
+    res.sendFile(__dirname + 'public/email.html')
 
 
 });
