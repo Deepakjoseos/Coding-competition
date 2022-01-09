@@ -25,6 +25,6 @@ app.post("/mailer", (req, res) => {
     res.send("You reached mailer");
 
 });
-app.listen(3000, () => {
-    console.log("Server ready at 3000")
+app.listen(PORT, () => {
+    console.log("Server ready at "+PORT);
 });
